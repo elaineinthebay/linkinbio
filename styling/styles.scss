@@ -3,11 +3,11 @@
 
 $colors: (
     primary: #c0c0c0,
-    accent: #2180a0,
-    dark: #202020,
-    light: #ecf5f8,
+    accent: #849D47,
+    dark: #1A282A,
+    light: #EAF5D1,
     wht: #fff,
-    gry: #707070,
+    gry: #797979,
 );
 
 @function color($color-name) {
@@ -123,6 +123,6 @@ ul > a {
 
 ul > a:hover,
 ul > a:active {
-    color: color(primary);
+    color: color(dark);
     transition: 0.42s ease-in-out;
 }
