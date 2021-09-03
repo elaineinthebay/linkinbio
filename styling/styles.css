@@ -18,7 +18,8 @@ body {
   margin: 0;
   padding: 0;
   color: #707070;
-  background: #ecf5f8;
+  background: #EAF5D1;
+  height: 100vh;
   text-rendering: optimizeLegibility;
 }
 
@@ -57,7 +58,7 @@ img {
 .btn {
   position: relative;
   display: block;
-  color: #202020;
+  color: #1A282A;
   border: 1px solid #202020;
   padding: 1.2rem 3.4rem;
   margin: 0.95rem 0;
@@ -78,7 +79,7 @@ img {
 }
 
 .btn:hover {
-  color: #2180a0;
+  color: #849D47;
 }
 
 .btn:hover::before {
@@ -129,7 +130,7 @@ ul > a {
 
 ul > a:hover,
 ul > a:active {
-  color: #c0c0c0;
+  color: #1A282A;
   -webkit-transition: 0.42s ease-in-out;
   transition: 0.42s ease-in-out;
 }
