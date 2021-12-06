@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Muli:300,700+family=Ramabhadra");
-@import url("https://fonts.googleapis.com/css?family=Gochi+Hand");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@400;0,600;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -11,14 +11,14 @@
 }
 
 body {
-  font-family: 'Wilma-Mankiller-modern', sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 1.5;
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.25;
   margin: 0;
   padding: 0;
-  color: #797979;
-  background: #EAF5D1;
+  color: #0e0e0e;
+  background: #d6d7ff;
   text-rendering: optimizeLegibility;
 }
 
@@ -48,29 +48,31 @@ img {
 }
 
 .links > a {
+  font-family: "Poppins", sans-serif;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  width: 48vw;
+  width: 80vw;
+  max-width: 600px;
+  min-width: 210px;
 }
 
 .btn {
   position: relative;
   display: block;
-  color: #1A282A;
-  border: 1px solid #1A282A;
-  padding: 1.2rem 3.4rem;
-  margin: 0.95rem 0;
+  color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  padding: 1.2rem 3rem;
+  margin: 0.75rem 0;
   font-family: inherit;
-  font-size: 0.75rem;
-  font-weight: 700;
+  font-size: 0.85rem;
+  font-weight: 400;
   text-align: center;
-  text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
   -webkit-transform: translate(0);
           transform: translate(0);
-  letter-spacing: 0.1875rem;
+  letter-spacing: 0.1rem;
 }
 
 .btn.fill {
@@ -78,7 +80,7 @@ img {
 }
 
 .btn:hover {
-  color: #849D47;
+  color: #a7a9ff;
 }
 
 .btn:hover::before {
@@ -118,18 +120,18 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #1A282A;
-  font-size: 2.2rem;
+  color: #0e0e0e;
+  font-size: 2rem;
 }
 
 ul > a {
   color: #797979;
-  margin-right: 1.86rem;
+  margin-right: 1.6rem;
 }
 
 ul > a:hover,
 ul > a:active {
-  color: #1A282A;
+  color: #0e0e0e;
   -webkit-transition: 0.42s ease-in-out;
   transition: 0.42s ease-in-out;
 }
